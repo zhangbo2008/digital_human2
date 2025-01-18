@@ -2,7 +2,7 @@
 
 
 #=====用这一个文件训练.后续再改多个文件.
-data='video/test1.mp4'
+data='video/5.mp4'
 
 import os.path
 import mediapipe as mp
