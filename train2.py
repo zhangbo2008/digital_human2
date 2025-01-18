@@ -320,7 +320,7 @@ def main():
     _ = [r.result() for r in tqdm(as_completed(futures_frames), total=len(futures_frames))]
     print("complete task!")
 
-if 0:
+if 1:
     process_video_file(data)
 
     print('给的视频处理完毕了.')
@@ -366,7 +366,7 @@ def process_audio_file(vfile, args):
     orig_mel = audio.melspectrogram(wav).T
     np.save(path.join(fulldir, 'audio'), orig_mel)
     print('保存音频地址为',path.join(fulldir, 'audio'))
-if 0:
+if 1:
     process_audio_file(data,args)
 
 
